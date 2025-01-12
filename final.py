@@ -6,5 +6,12 @@ issue_date = input("Введите дату истечения заметки в
 title1 = input("Введите первый заголовок заметки: ")
 title2 = input("Введите второй заголовок заметки: ")
 titles = [title1, title2]
-note = [username, content, status, created_date, issue_date, titles]
+note = {
+    "Имя пользователя": username,
+"Описание заметки": content,
+"Статус заметки": status,
+"Дата создания заметки": created_date,
+"Дата истечения заметки": issue_date,
+"Заголовки заметки": titles
+}
 print(note)
